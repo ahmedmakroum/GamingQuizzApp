@@ -24,7 +24,7 @@
         android:layout_width="339dp"
         android:layout_height="192dp"
         android:layout_gravity="center"
-        android:src="@drawable/qst3"
+        android:src="@drawable/quest3"
         android:layout_marginTop="15sp"
         android:layout_marginBottom="10sp"/>
     <LinearLayout
@@ -34,7 +34,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="What does ' DRS ' in Formula 1 stand for ?"
+            android:text="Quel est le développeur de la licence 'FIFA' ?"
             android:textSize="20sp"
             android:id="@+id/question_text3"
             android:textColor="@color/colorPrimary"
@@ -52,19 +52,19 @@
                 android:id="@+id/radioA3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Decision Review System" />
+                android:text="Konami" />
 
             <RadioButton
                 android:id="@+id/radioB3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Distributed Resource Scheduler" />
+                android:text="Ubisoft" />
 
             <RadioButton
                 android:id="@+id/radioC3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Drag Reduction System" />
+                android:text="EA" />
         </RadioGroup>
 
         <Button
@@ -76,8 +76,8 @@
             android:layout_marginLeft="20sp"
             android:layout_marginRight="20sp"
             android:textSize="20sp"
-            android:background="@color/blue"
-            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/purple2"
+            android:textColor="@color/purple"
             android:text="Next" />
 
 

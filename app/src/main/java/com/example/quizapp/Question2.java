@@ -37,7 +37,7 @@ public class Question2 extends AppCompatActivity {
 
         db = FirebaseFirestore.getInstance();
 
-        db.collection("questions").document("bB1mMcYmTLuQdATI7tYn")
+        db.collection("questions").document("question2")
                 .get()
                 .addOnSuccessListener(documentSnapshot -> {
                     if (documentSnapshot.exists()) {

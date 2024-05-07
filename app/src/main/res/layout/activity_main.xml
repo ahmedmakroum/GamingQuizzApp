@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:theme="@style/Theme.My_Culture_Quiz"
-    android:background="@drawable/f1wallpaper2">
+    android:background="@drawable/gamingwallpaper">
 
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -16,7 +16,7 @@
         android:layout_width="208dp"
         android:layout_height="280dp"
         android:layout_gravity="center"
-        android:src="@drawable/danny">
+        android:src="@drawable/gamingpic">
 
     </de.hdodenhof.circleimageview.CircleImageView>
 

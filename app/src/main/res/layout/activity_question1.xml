@@ -24,7 +24,7 @@
         android:layout_width="339dp"
         android:layout_height="192dp"
         android:layout_gravity="center"
-        android:src="@drawable/qst1"
+        android:src="@drawable/quest1"
         android:layout_marginTop="15sp"
         android:layout_marginBottom="10sp"/>
     <LinearLayout
@@ -34,7 +34,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Who is known as the ' Honey Badger ' among F1 drivers ?"
+        android:text="Comment se nomme le héro de 'Uncharted' ?"
         android:textSize="20sp"
         android:id="@+id/question_text"
         android:textColor="@color/colorPrimary"
@@ -54,19 +54,19 @@
                 android:id="@+id/radioA1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Lewis Hamilton" />
+                android:text="Jason Brody" />
 
             <RadioButton
                 android:id="@+id/radioB1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Daniel Ricciardo" />
+                android:text="Nathan Drake" />
 
             <RadioButton
                 android:id="@+id/radioC1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Checo Perez" />
+                android:text="Sully" />
         </RadioGroup>
 
         <Button
@@ -78,8 +78,8 @@
             android:layout_marginLeft="20sp"
             android:layout_marginRight="20sp"
             android:textSize="20sp"
-            android:background="@color/blue"
-            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/purple2"
+            android:textColor="@color/purple"
             android:text="Next" />
 
 
